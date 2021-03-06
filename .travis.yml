@@ -3,4 +3,4 @@ jdk:
   - oraclejdk9
 
 sudo: false
-script: ./CITesting/test/TestMain
+script: javac /BrandonBywater1/CITesting/test/TestMain
