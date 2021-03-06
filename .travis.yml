@@ -2,7 +2,5 @@ language: java
 jdk:
   - oraclejdk9
 
-addons:
-  apt:
-    packages:
-    - ant
+before_install:
+  - cd java
