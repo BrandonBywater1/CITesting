@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Test') {
+    stage('AddTwo') {
       environment {
         CI = 'true'
       }
@@ -9,6 +9,5 @@ pipeline {
         sh './jenkins/scripts/tests.sh'
       }
     }
-
   }
 }
