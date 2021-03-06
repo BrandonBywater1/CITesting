@@ -2,7 +2,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class TestMain {
-
     @Test
     public static void test1() {
         System.out.println("Test1");
